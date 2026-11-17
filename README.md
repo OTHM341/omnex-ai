@@ -1,6 +1,18 @@
 # OMNEX AI
 
-\<p align="center">   \<img src="[https://img.shields.io/badge/AI-Platform-blueviolet](https://img.shields.io/badge/AI-Platform-blueviolet)" alt="AI Platform" />   \<img src="[https://img.shields.io/badge/Full--Stack-Web%20Application-blue](https://img.shields.io/badge/Full--Stack-Web%20Application-blue)" alt="Full Stack" />   \<img src="[https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-61DAFB](https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-61DAFB)" alt="React and TypeScript" />   \<img src="[https://img.shields.io/badge/Backend-Spring%20Boot-6DB33F](https://img.shields.io/badge/Backend-Spring%20Boot-6DB33F)" alt="Spring Boot" />   \<img src="[https://img.shields.io/badge/Status-In%20Development-orange](https://img.shields.io/badge/Status-In%20Development-orange)" alt="In Development" /> \</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Platform-blueviolet?style=for-the-badge&logo=openai&logoColor=white" alt="AI Platform" />
+  <img src="https://img.shields.io/badge/Full--Stack-Application-blue?style=for-the-badge" alt="Full Stack Application" />
+  <img src="https://img.shields.io/badge/React-TypeScript-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React and TypeScript" />
+  <img src="https://img.shields.io/badge/Spring_Boot-Backend-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Status-In_Development-orange?style=for-the-badge" alt="In Development" />
+</p>
+
+<p align="center">
+  <strong>An intelligent AI workspace for conversations, coding, writing, and productivity.</strong>
+</p>
+
+---
 
 ## Overview
 
@@ -8,14 +20,14 @@
 
 The platform aims to simplify everyday tasks through AI-assisted conversations, coding support, content generation, research, and productivity tools.
 
-Built with a modern full-stack architecture, OMNEX AI combines a responsive React interface with a Spring Boot backend and AI integration.
+Built with a modern full-stack architecture, OMNEX AI combines a responsive React interface with a Spring Boot backend, PostgreSQL database, and Google Gemini AI integration.
 
 ## Features
 
 ### Currently Implemented
 
 - Modern and responsive AI workspace
-- Interactive chat interface
+- Interactive AI chat interface
 - Real-time AI response streaming
 - Conversation history management
 - Create and manage conversations
@@ -28,9 +40,9 @@ Built with a modern full-stack architecture, OMNEX AI combines a responsive Reac
 - Syntax highlighting for code blocks
 - Copy code and download AI responses
 - Auto-resizing message input
-- Chat suggestions for starting conversations
+- Suggested prompts for new conversations
 - Lazy-loaded application pages
-- Error handling and loading indicators
+- Loading indicators and error handling
 
 ### In Development
 
@@ -43,7 +55,6 @@ Built with a modern full-stack architecture, OMNEX AI combines a responsive Reac
 ## Technologies
 
 ### Frontend
-
 - React
 - TypeScript
 - Vite
@@ -56,53 +67,32 @@ Built with a modern full-stack architecture, OMNEX AI combines a responsive Reac
 - Rehype Highlight
 
 ### Backend
-
 - Java
 - Spring Boot
 - REST API
 - Server-Sent Events (SSE)
 
 ### Database
-
 - PostgreSQL
 
 ### AI Integration
-
 - Google Gemini API
 
 ## Project Structure
 
 ```text
 omnex-ai/
-│
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── chat/
-│   │   │   │   ├── ChatInput.tsx
-│   │   │   │   ├── ChatWindow.tsx
-│   │   │   │   └── MessageBubble.tsx
-│   │   │   │
 │   │   │   └── layout/
-│   │   │       └── MainLayout.tsx
-│   │   │
 │   │   ├── pages/
-│   │   │   ├── Dashboard.tsx
-│   │   │   ├── Chat.tsx
-│   │   │   ├── History.tsx
-│   │   │   └── Assistants.tsx
-│   │   │
 │   │   ├── services/
-│   │   │   └── api.ts
-│   │   │
 │   │   ├── App.tsx
 │   │   └── App.css
-│   │
 │   └── package.json
-│
 ├── backend/
-│   └── ...
-│
 ├── README.md
 └── ...
 ```
@@ -110,26 +100,20 @@ omnex-ai/
 ## Getting Started
 
 ### Prerequisites
-
 - Node.js
 - npm
 - Java JDK
 - Maven
 - PostgreSQL
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/OTHM341/omnex-ai.git
-```
-
-### 2. Navigate to the project
-
-```bash
 cd omnex-ai
 ```
 
-### 3. Start the frontend
+### Start the frontend
 
 ```bash
 cd frontend
@@ -137,19 +121,17 @@ npm install
 npm run dev
 ```
 
-### 4. Start the backend
+### Start the backend
 
 Navigate to the backend directory and run the Spring Boot application using Maven or your preferred Java IDE.
 
-### 5. Configure the environment
+### Configure the environment
 
 Configure the PostgreSQL database connection and Gemini API credentials in the backend configuration.
 
-**Note:** Never commit API keys, passwords, or other sensitive credentials to GitHub.
+**Important:** Never commit API keys, passwords, or other sensitive credentials to GitHub.
 
 ## Production Build
-
-To generate an optimized frontend production build:
 
 ```bash
 cd frontend
@@ -161,7 +143,7 @@ npm run build
 - Support for additional AI providers and models
 - File uploads and document processing
 - AI-powered PDF summarization
-- Advanced code assistance
+- Advanced coding assistance
 - User authentication and authorization
 - Custom AI assistant configuration
 - Conversation search and organization
@@ -175,6 +157,6 @@ Computer Engineering Graduate | Full-Stack Developer
 
 ---
 
-\<p align="center">
-&#x20; \<sub>Designed and developed by Othmane Moutaouakil\</sub>
-\</p>
+<p align="center">
+  <sub>Designed and developed by Othmane Moutaouakil</sub>
+</p>
